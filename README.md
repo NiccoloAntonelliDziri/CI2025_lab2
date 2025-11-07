@@ -34,9 +34,45 @@ Evolutionary algorithm implementation for solving symmetric and asymmetric TSP i
 
 ## P.S.
 
+## Results
+
+### Test Problem
+- **2823.79**
+
+### Symmetric Problems (G)
+| Instance | Best Distance |
+|----------|---------------|
+| G10      | 1497.66       |
+| G20      | 1755.51       |
+| G50      | 2629.99       |
+| G100     | 4287.97       |
+| G200     | 5688.67       |
+| G500     | 9191.54       |
+| G1000    | 13118.49      |
+
+### Asymmetric Problems (R1)
+| Instance | Best Distance |
+|----------|---------------|
+| R1_10    | 184.27        |
+| R1_20    | 340.21        |
+| R1_50    | 596.59        |
+| R1_100   | 736.37        |
+| R1_200   | 1103.90       |
+| R1_500   | 1744.17       |
+| R1_1000  | 2533.81       |
+
 ### Asymmetric Problems (R2)
-- R2_10 to R2_1000: All optimally solved by ultra-greedy initial solution
-- Distance values: -411.70 to -49477.87 (negative distances allowed in R2)
+*Note: All R2 problems optimally solved by ultra-greedy initial  (basically without running the algorithm)*
+
+| Instance | Best Distance |
+|----------|---------------|
+| R2_10    | -411.70       |
+| R2_20    | -796.86       |
+| R2_50    | -2232.38      |
+| R2_100   | -4667.68      |
+| R2_200   | -9603.77      |
+| R2_500   | -24584.05     |
+| R2_1000  | -49477.87     |
 
 ## Sources
 
